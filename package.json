@@ -1,0 +1,20 @@
+{
+  "name": "react-js-dev-quiz",
+  "version": "1.0.0",
+  "description": "repo for response to react quiz",
+  "main": "index.js",
+  "author": "Chris Sancho(kaladin9017)",
+  "license": "ISC",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {}
+}
