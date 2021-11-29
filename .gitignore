@@ -4,3 +4,77 @@ dist
 typings
 npm-debug*
 yarn-error*
+
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+# variables
+build/
+.idea
+.gradle
+local.properties
+*.iml
+android/.gradle
+android/app/*.keystore
+android/app/google-services.json
+android/app/src/**/google-services.json
+android/sentry.properties
+android/sentry-*
+
+
+# node.js
+# environment variables
+
+node_modules/
+npm-debug.*
+yarn-error.log
+.env
+
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# Bundle artifact
+*.jsbundle
+
+
+# VSCode
+!.vscode
+.history
+
+# CocoaPods files
+ios/Pods
+
+# dSYM files
+*.dSYM.zip
+
+# IOS
+ios/assets
+
+# react-native-config codegen
+ios/tmp.xcconfig
